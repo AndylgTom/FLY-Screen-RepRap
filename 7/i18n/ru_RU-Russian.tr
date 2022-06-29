@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="HOME">БАЗА</string>
-<string name="Moto Stop">Мотор Стоп</string>
-<string name="Home All">Оси в Ноль</string>
+  <string name="HOME">Парковка</string>
+<string name="Moto Stop">Стоп моторы</string>
+<string name="Home All">Все оси в 0</string>
 
-<string name="Heating">НАГРЕВ</string>
-<string name="Nozzle                            Bed">Сопло                       Стол</string>
+<string name="Heating">Нагрев</string>
+<string name="Nozzle                            Bed">Сопло                    Стол  </string>
 <string name="Nozzle0">Сопло_0</string>
 <string name="Nozzle1">Сопло_1</string>
 <string name="Nozzle2">Сопло_2</string>
@@ -13,92 +13,127 @@
 <string name="Nozzle4">Сопло_4</string>
 <string name="Nozzle5">Сопло_5</string>
 <string name="Nozzle6">Сопло_6</string>
+<string name="Nozzle">Сопло</string>
+<string name="Bed">Стол</string>
 
-<string name="Print">ПЕЧАТЬ</string>
-<string name="Onboard">С платы</string>
-<string name="Screen sd">Screen sd</string>
-<string name="U disk">U disk</string>
-<string name="Macros">Macros</string>
-<string name="Are you sure you need to print?">Are you sure you need to print?</string>
+<string name="Print">Печать</string>
+<string name="Onboard">SD-карта на плате</string>
+<string name="Screen sd">SD-карта в экране</string>
+<string name="U disk">USB флешка</string>
+<string name="Macros">Макросы</string>
+<string name="Are you sure you need to print?">Запустить печать?</string>
 <string name="Ordinary">Ordinary</string>   
 <string name="Mirror">Mirror</string>   
-<string name="Copy">Copy</string>   
-<string name="Print">Print</string>
-<string name="Cancel">Cancel</string>
-<string name="Print Time：">Print Time：</string>
-<string name="Pause">Pause</string>
-<string name="continue">continue</string>
-<string name="End Shutdown">End Shutdown</string>
-<string name="       Preview          Settings">Preview          Settings</string>
-<string name="Bed Temp">Bed Temp</string>
-<string name="Fan Speed">Fan Speed</string>
-<string name="Nozzle Temp">Nozzle Temp</string>
-<string name="Print speed">Print speed</string>
+<string name="Copy">Копировать</string>   
+<string name="Print">Печать</string>
+<string name="Cancel">   Отмена</string>
+<string name="Print Time：">Время печати: </string>
+<string name="Pause">Пауза</string>
+<string name="continue">Продолжить  </string>
+<string name="End Shutdown">    Автооткл.</string>
+<string name="      Preview             Settings">     Предпросмотр          Настройки</string>
+<string name="Bed Temp">Температура стола</string>
+<string name="Nozzle Temp">Температура сопла</string>
+<string name="Fan Speed">Скорость вентилятора</string>
+<string name="Print speed">Скорость печати</string>
 
-<string name="Move">ДВИГАТЬ</string>
-<string name="Movement">Движение</string>
+<string name="Move">Движение</string>
+<string name="Movement">Управл. осями</string>
 <string name="Extruder">Экструдер</string>
-<string name="Cool  extrusion">Cool extrusion</string>
-<string name="LOW Speed">Быстрая Подача</string>
-<string name="Medium">Medium</string>
-<string name="HIGH Speed">Малая Подача</string>
+<string name="Cool  extrusion">Экструзия на холодную</string>
+<string name="Feed_rate">Скорость подачи</string>
+<string name="LOW Speed">Медленно</string>
+<string name="Medium">Обычно</string>
+<string name="HIGH Speed">Быстро</string>
 
-<string name="More">Еще</string>
+<string name="More">Ещё</string>
 <string name="Leveling">Выравнивание</string>
-<string name="Z Lift">Z Lift</string>
-<string name="Z Trigger value">Z Trigger value</string>
-<string name="storepos">Saved successfully, please release the button</string>
-<string name="storepos?">First move the print head to the designated location, and then long press the corresponding button for 3S, it will automatically save the current coordinate point</string>
+<string name="Z Lift">Подъём по Z</string>
+<string name="Z Trigger value">вел. срабатывания Z</string>
+<string name="storepos">Успешно сохранено. Пожалуйста, отпустите кнопку</string>
+<string name="storepos?">Сначала переместите печатающую голову в указанное место, а затем зажмите соответствующую кнопку на 3 секунды, чтобы автоматически сохранить координату текущей точки</string>
+
+<string name="Xaxis length:">Размер по оси X:</string>
+<string name="Yaxis length:">Размер по оси Y:</string>
+<string name="Zaxis length:">Размер по оси Z:</string>
+<string name="XY move speed:">Скор. перемещения XY:</string>
+<string name="Z move speed:">Скор. перемещения Z:</string>
+<string name="LOW speed:">Скорость - Медленно:</string>
+<string name="Constant speed:">Скорость - Обычно:</string>
+<string name="HIGH SPEED:">Скорость - Быстро:</string>
+<string name="Extrusion length:">Длина экструзии:</string>
+<string name="Reset">Сброс</string>
+
+<string name="Parameters printer">Параметры принтера</string>
+<string name="Parameters extrusion">Параметры экструзии</string>
 
 <string name="parameter">Параметры</string>
 
-<string name="Firmware setting">Параметры Прошивки</string>
-<string name="storeclear">Settings cleared</string>
-<string name="store?">After modifying the parameters, the parameters will be stored in the screen memory. After the marlin program is turned on/the screen is turned on, the stored parameters will be automatically sent. &#x000A; Even if the marlin program does not enable the EEPROM function, this function can be realized. &#x000A; But 100% success cannot be guaranteed. It is recommended to enable marlin's EEPROM function</string>  
+<string name="Wifi on">Вкл.</string>
+<string name="Wifi off">Откл.</string>
+<string name="Enable network">Вкл. сеть</string>
+<string name="Access point">Режим ТД</string>
+
+<string name="Login">Войти</string>
+<string name="TEST">ТЕСТ</string>
+
+<string name="Firmware setting">Прошивка</string>
+<string name="Gcodes">G-коды</string>
+<string name="Screen setting">Наст. экрана</string>
+
+<string name="storeclear">Настройки очищены</string>
+<string name="store?">При изменении параметров они будут автоматически сохраняться в память экрана. После включения marlin/экрана сохраненные параметры будут автоматически отправлены. &#x000A; Даже если в marlin не включена функция EEPROM, эта функция может быть реализована. &#x000A; Но 100% работа не может быть гарантирована, поэтому все же рекомендуется включить функцию EEPROM в marlin.
+</string>  
 
 
 <string name="Drive step">Drive step</string>
-<string name="Max speed">Max speed</string>
-<string name="Max acceleration">Max acceleration</string>
-<string name="Start acceleration">Start acceleration</string>
-<string name="Heating Pid">Heating Pid</string>
+<string name="Max speed">Максимальная скорость</string>
+<string name="Max acceleration">Максимальное ускорение</string>
+<string name="Start acceleration">Начальное ускорение</string>
+<string name="Heating Pid">Пин нагревателя</string>
 <string name="Tmc drive circuit">Tmc drive circuit</string>
-<string name="XYZ offset">XYZ offset</string>
+<string name="XYZ offset">Смещение XYZ</string>
     
-<string name="Screen setting">Screen setting</string>
-<string name="Power-on password">Power-on password</string>
-<string name="Click here to send order">Click here to send order</string>
-<string name="Save">Save</string>
-<string name="multi touch">мультитач</string>
-<string name="Double-click home">Double-click home</string>
-<string name="Double-click home:open">Double-click home:open</string>
-<string name="Double-click home:close">Double-click home:close</string>
-<string name="Tap interval(ms)">Tap interval(ms)</string>
-<string name="Touch calibration">Touch calibration</string>
+
+<string name="Power-on password">Пароль на включение</string>
+<string name="Click here to send order">Нажмите здесь, чтобы отправить команду</string>
+<string name="Save">Сохранить</string>
+<string name="multi touch">Мультитач</string>
+<string name="Double-click home">Парковка (2 нажатия):</string>
+<string name="Double-click home:open">Парковка (2 нажатия): open</string>
+<string name="Double-click home:close">Парковка (2 нажатия): close</string>
+<string name="Tap interval(ms)">Интервал нажатия (мс)</string>
+<string name="Touch calibration">Калиб. тачскрина</string>
 <string name="Brightness：">Яркость：</string>
-<string name="Sleep overtime">Sleep overtime</string>
-<string name="10S">10S</string>
-<string name="30S">30S</string>
-<string name="1minute">1minute</string>
-<string name="2minute">2minute</string>
-<string name="5minute">5minute</string>
-<string name="30minute">30minute</string>
-<string name="1hour">1hour</string>
+<string name="Sleep overtime">Таймаут экрана</string>
+<string name="10S">10 с.</string>
+<string name="30S">30 с.</string>
+<string name="1minute">1 мин.</string>
+<string name="2minute">2 мин.</string>
+<string name="5minute">5 мин.</string>
+<string name="30minute">30 мин.</string>
+<string name="1hour">1 час</string>
 <string name="Double X mode close">Double X mode:close</string>
 <string name="Double X mode:close">Double X mode:close</string>
 <string name="Double X mode:open">Double X mode:open</string>
 
-<string name="password">пароль</string>
-<string name="display">дисплей</string>
+<string name="password">Пароль</string>
+<string name="display">Экран</string>
 <string name="Double X">Double X</string>
-<string name="multi touc">мультитач</string>
-<string name="language">язык</string>
+<string name="multi touc">Мультитач</string>
+<string name="language">Язык</string>
 <string name="upgrade">Обновить</string>
-<string name="Upgrade Instructions">Scan the QR code to get the github connection, download the corresponding Updata.img and put it into the root directory of the sd card, and insert it on the screen to upgrade</string>
+<string name="UpgradeInstructions">Для обновления прошивки экрана, скачайте файл прошивки для вашей модели экрана со страницы github (ссылку можно получить отсканировав QR-код) и переименуйте его в updata.img. Поместите файл в корневой каталог SD-карты и вставив её в картридер экрана произведите обновление.</string>
 
+<string name="Please click to enter the power-on password">Пожалуйста, введите пароль для включения</string>
+<string name="Confirm">Принять</string>
+<string name="Change the system language to Russian?">Сменить язык системы на русский?</string>
+<string name="Change the system language to English?">Сменить язык системы на английский?</string>
+<string name="Upgrade">Обновить</string>
 
-<string name="Please click to enter the power-on password">Please click to enter the power-on password</string>
-<string name="Confirm">Confirm</string>
+<string name="Upgrading, don't cut off power">Идёт обновление. Не отключайте питание.</string>
+<string name="Upgrade siccess, will restart">Обновление успешно установлено. Произойдёт перезагрузка.</string>
+
 </resources>
 
 

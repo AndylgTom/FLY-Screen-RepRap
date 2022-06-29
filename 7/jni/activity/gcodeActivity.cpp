@@ -4,6 +4,13 @@
 #include "gcodeActivity.h"
 
 /*TAG:GlobalVariable全局变量*/
+static ZKTextView* mTextView69Ptr;
+static ZKTextView* mTextView68Ptr;
+static ZKTextView* mTextView67Ptr;
+static ZKTextView* mTextView66Ptr;
+static ZKTextView* mTextView65Ptr;
+static ZKTextView* mTextView64Ptr;
+static ZKTextView* mTextView63Ptr;
 static ZKButton* mY_ValuePtr;
 static ZKButton* mX_ValuePtr;
 static ZKTextView* mTextview52Ptr;
@@ -596,6 +603,13 @@ const char* gcodeActivity::getAppName() const{
 //TAG:onCreate
 void gcodeActivity::onCreate() {
 	Activity::onCreate();
+    mTextView69Ptr = (ZKTextView*)findControlByID(ID_GCODE_TextView69);
+    mTextView68Ptr = (ZKTextView*)findControlByID(ID_GCODE_TextView68);
+    mTextView67Ptr = (ZKTextView*)findControlByID(ID_GCODE_TextView67);
+    mTextView66Ptr = (ZKTextView*)findControlByID(ID_GCODE_TextView66);
+    mTextView65Ptr = (ZKTextView*)findControlByID(ID_GCODE_TextView65);
+    mTextView64Ptr = (ZKTextView*)findControlByID(ID_GCODE_TextView64);
+    mTextView63Ptr = (ZKTextView*)findControlByID(ID_GCODE_TextView63);
     mY_ValuePtr = (ZKButton*)findControlByID(ID_GCODE_Y_Value);
     mX_ValuePtr = (ZKButton*)findControlByID(ID_GCODE_X_Value);
     mTextview52Ptr = (ZKTextView*)findControlByID(ID_GCODE_Textview52);

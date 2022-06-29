@@ -1850,19 +1850,17 @@ mButton3Ptr->setText(tempptwd);
 }
 
 static bool onButtonClick_Button77(ZKButton *pButton) {
-  //  LOGD(" ButtonClick Button77 !!!\n");
-    if (!pButton->isSelected()){//加热开启
-        char buf[50];
-        Hardware_serial_transmission("M104 S");
-        sprintf(buf,"%d\r\n",tempptwd);
-        Hardware_serial_transmission(buf);
-    }
-        else
-        Hardware_serial_transmission("M104 S0\r\n");
-
-
-
-               	pButton->setSelected(!pButton->isSelected());
+	   if (!pButton->isSelected()){//加热开启
+	        char buf[50];
+	        Hardware_serial_transmission("M104 S");
+	        sprintf(buf,"%d\r\n",tempptwd);
+	    Hardware_serial_transmission(buf);
+	    mTextView7Ptr->setBackgroundPic("temprcxson.png");
+	   }
+	        else{
+	        mTextView7Ptr->setBackgroundPic("temprcxsoff.png");
+	        Hardware_serial_transmission("M104 S0\r\n");}
+             pButton->setSelected(!pButton->isSelected());
 
 
     return false;
@@ -2125,13 +2123,11 @@ static bool onButtonClick_Button100(ZKButton *pButton) {
 		sprintf(buf,"Zaxis length：%d",zcd);
 		mButton112Ptr->setText(buf);
 
-
 		if(strcmp(xyspeedf.c_str(),"")!=0)
 		sprintf(buf,"XY move speed：%s",xyspeedf.c_str());
 			else
 		sprintf(buf,"XY move speed：%d",xyspeed);
 		mButton113Ptr->setText(buf);
-
 
 		if(strcmp(zspeedf.c_str(),"")!=0)
 		sprintf(buf,"Z move speed：%s",zspeedf.c_str());
@@ -3682,4 +3678,13 @@ static bool onButtonClick_Y_Value(ZKButton *pButton) {
 	curprintcs = 51 ;
 	 mAJPtr->setVisible(true);
     return false;
+}
+static void onEditTextChanged_EditText3(const std::string &text) {
+    //LOGD(" onEditTextChanged_ EditText3 %s !!!\n", text.c_str());
+}
+static void onEditTextChanged_EditText4(const std::string &text) {
+    //LOGD(" onEditTextChanged_ EditText4 %s !!!\n", text.c_str());
+}
+static void onEditTextChanged_EditText5(const std::string &text) {
+    //LOGD(" onEditTextChanged_ EditText5 %s !!!\n", text.c_str());
 }

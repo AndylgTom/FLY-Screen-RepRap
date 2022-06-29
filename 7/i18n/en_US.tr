@@ -39,6 +39,7 @@
 <string name="Movement">Movement</string>
 <string name="Extruder">Extruder</string>
 <string name="Cool  extrusion">Cool</string>
+<string name="Feed_rate">Feed rate</string>
 <string name="LOW Speed">LOW Speed</string>
 <string name="Medium">Medium</string>
 <string name="HIGH Speed">HIGH Speed</string>
@@ -46,13 +47,29 @@
 <string name="More">More</string>
 <string name="Leveling">Leveling</string>
 <string name="Z Lift">Z Lift</string>
+
 <string name="Z Trigger value">Z Trigger value</string>
 <string name="storepos">Saved successfully, please release the button</string>
 <string name="storepos?">First move the print head to the designated location, and then long press the corresponding button for 3S, it will automatically save the current coordinate point</string>
 
-<string name="parameter">parameter</string>
+<string name="Parameters printer">Parameters printer</string>
+<string name="Parameters extrusion">Parameters extrusion</string>
+
+<string name="Reset">Reset</string>
+
+<string name="parameter">Parameter</string>
+
+<string name="Wifi on">Wifi on</string>
+<string name="Wifi off">Wifi off</string>
+<string name="Enable network">Network on</string>
+<string name="Access point">AP</string>
+
+<string name="Login">Login</string>
+<string name="TEST">TEST</string>
+
 
 <string name="Firmware setting">Firmware set</string>
+<string name="Gcodes">G-codes</string>
 <string name="storeclear">Settings cleared</string>
 <string name="store?">After modifying the parameters, the parameters will be stored in the screen memory. After the marlin program is turned on/the screen is turned on, the stored parameters will be automatically sent. &#x000A; Even if the marlin program does not enable the EEPROM function, this function can be realized. &#x000A; But 100% success cannot be guaranteed. It is recommended to enable marlin's EEPROM function</string>  
 
@@ -99,6 +116,14 @@
 
 <string name="Please click to enter the power-on password">Please click to enter the power-on password</string>
 <string name="Confirm">Confirm</string>
+
+<string name="Change the system language to Russian?">Change the system language to Russian?</string>
+<string name="Change the system language to English?">Change the system language to English?</string>
+<string name="Upgrade">Upgrade</string>
+
+<string name="Cancel1">No</string>
+<string name="Confirm1">Yes</string>
+
 </resources>
 
 

@@ -26,6 +26,13 @@
 #include "window/ZKSlideWindow.h"
 
 /*TAG:Macro宏ID*/
+#define ID_GCODE_TextView69    50043
+#define ID_GCODE_TextView68    50042
+#define ID_GCODE_TextView67    50037
+#define ID_GCODE_TextView66    50032
+#define ID_GCODE_TextView65    50027
+#define ID_GCODE_TextView64    50026
+#define ID_GCODE_TextView63    50025
 #define ID_GCODE_Y_Value    20063
 #define ID_GCODE_X_Value    20062
 #define ID_GCODE_Textview52    50054
