@@ -4,7 +4,7 @@ Data 29.06.2022
 **Fixes for 7 inch screen**
 
 - Fixed interface in some places for alignment and other languages.
-- Fix button to switch table heat (did not react on pressing).
+- Fix button to switch bad heat (did not react on pressing).
 - Keyboard replaced by nicer one.
 - Replaced some icons.
 - Added some lines for English and Russian language.
